@@ -2,7 +2,6 @@ import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 
 const Card = props => {
-    console.log(props.style.width);
     return (
     <View style={{...styles.card, ...props.style}}>
         {props.children}
